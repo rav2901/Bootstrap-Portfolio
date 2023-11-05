@@ -1,0 +1,13 @@
+.customNav{
+    position: fixed;
+    width: 100%;
+    background-color: bisque !important;
+    background-size: cover;
+    z-index: 10;
+  }
+
+
+img{
+    width: 250px;
+    height: auto;
+}
