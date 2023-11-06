@@ -1,3 +1,4 @@
+/*navigation bar style*/
 .customNav{
     position: fixed;
     width: 100%;
@@ -6,28 +7,43 @@
     z-index: 10;
   }
 
-
+/*hero section photo of me*/
 img{
     width: 250px;
     height: auto;
 }
+/*content style*/
+h2{
+  border: 5px solid brown;
+  box-shadow: 5px 10px cornflowerblue; 
+}
+/*content style*/
+.mySkills ul li{
+  list-style-type: none;
+  font-size: large;
+  border: 2px solid cornflowerblue;
 
+}
+/*footer style*/
 .footerNav{
   margin:30px 0;
 }
 .footerNav ul{
   display: flex;
   justify-content: center;
+  list-style-type: none;
 }
 
 .footerNav ul li a{
   color: brown;
   margin: 20px;
   text-decoration: none;
-  font-size: large;
+  font-size: x-large;
   opacity: 0.6;
   transition:0.5s;
 }
 .footerNav ul li a:hover{
   opacity: 2;
+  border: 5px solid brown;
+  box-shadow: 5px 10px cornflowerblue;
 }

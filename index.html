@@ -7,10 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--my css file-->
     <link href="/css/style.css"rel="stylesheet">
-    <title>Document</title>
+    <title>Bootstrap Portofolio</title>
 </head>
 <body> 
-  <!--bootstrap css link-->
+  <!--navigation bar-->
   <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">My portofolio</a>
@@ -20,21 +20,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Work</a>
+            <a class="nav-link active" aria-current="page" href="#work">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Contact
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Phone</a></li>
-              <li><a class="dropdown-item" href="#">Email</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Social</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
           </li>
         </ul>
         
@@ -59,87 +51,99 @@
   </div>
  </section>
     <!--Work section-->
-  <section class="container-fluid">
+  <section class="container-fluid" id="work">
   <div class="row">
    <h2>Work</h2>
+   <!--First card-->
    <div class="cardContainer col-lg-6 col-md-3 col-sm-12">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="images/02-portfolio-1.jpg" class="card-img-top" alt="red led wall">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">Led wall</h5>
+        <p class="card-text">Node/loT</p>
+        <a href="#/" class="btn btn-primary">See Project</a>
       </div>
     </div>
   </div>
+  <!--Second card-->
   <div class="cardContainer col-lg-6 col-md-3 col-sm-12">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="images/mini-project.jpg" class="card-img-top" alt="css webpage">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">CSS sheet</h5>
+        <p class="card-text">Helpful webpage for flexbox and grid layout code</p>
+        <a href="https://rav2901.github.io/mini-project-CSS-Snippet-Cheat-Sheet/"target="_blank" class="btn btn-primary">See Project</a>
       </div>
     </div>
   </div>
+  <!--Third card-->
   <div class="cardContainer col-lg-4 col-md-3 col-sm-12">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="images/rock webpage.JPG" class="card-img-top" alt="concert crowd">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">Webpage using Bootstrap</h5>
+        <p class="card-text">My first project using custom Bootstrap 5</p>
+        <a href="https://rav2901.github.io/bootstrap-custom-webpage/"target="_blank" class="btn btn-primary">See Project</a>
       </div>
     </div>
   </div>
+  <!--Forth card-->
   <div class="cardContainer col-lg-4 col-md-3 col-sm-12">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="images/Capture.jpg" class="card-img-top" alt="basic webpage">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">Prework study guide</h5>
+        <p class="card-text">This is a webpage guide with a few HTML, CSS and JavaScript information for beginners</p>
+        <a href="https://rav2901.github.io/prework-study-guide/"target="_blank" class="btn btn-primary">See Project</a>
       </div>
     </div>
   </div>
+  <!--Fifth card-->
   <div class="cardContainer col-lg-4 col-md-3 col-sm-12">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="images/02-portfolio-3.jpg" class="card-img-top" alt="car from above">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">Pastel Puzzels</h5>
+        <p class="card-text">MERN Stack</p>
+        <a href="#/" class="btn btn-primary">See Project</a>
       </div>
     </div>
   </div>
  </div>
 </section>
 <!--Skills section-->
-<div class="container-fluid" class="content">
+<div class="container-fluid" class="content" id="skills">
   <h2 class="sectionHeading">Skills</h2>
 
   <div class="row" class="valueProp">
     <div class="sideAccent">
     </div>
-    <div class="mySkills col-lg-12 col-md-3 col-sm-12"">
+    <div class="mySkills col-lg-12 col-md-3 col-sm-12">
      <ul>
       <li>Applying fundamental knowledge of web development with HTML, CSS, and JavaScript.</li>
+      <br>
       <li>Creating visually-compelling page layouts using UX design principles.</li>
+      <br>
       <li>Manipulating page information and creating interactivity using jQuery and React.</li>
+      <br>
       <li>Maintaining code versioning and working across distributed teams using Git and GitHub.</li>
+      <br>
       <li>Retrieving data from servers using RESTful-compliant network requests.</li>
+      <br>
       <li>Organising code, having mastered foundations of object-oriented and functional programming paradigms.</li>
+      <br>
       <li>Building modern web applications with industry-standard frameworks like Node.js and React.</li>
+      <br>
       <li>Deploying web-based applications using Netlify. </li>
      </ul>
     </div>
 <!--footer sectio-->
      <footer>
       <h2>Contact Me</h2>
-      <div class="footerNav">
+      <div class="footerNav" id="contact">
       <ul>
-        <li><a href="#">003.000.000 </a></li>
-        <li><a href="">LinkedIn</a></li>
+        <li><a href="#/">003.000.000 </a></li>
+        <li><a href="#/">LinkedIn</a></li>
         <li><a href="https://github.com/rav2901" target="_blank">GitHub</a></li>
         <li><a href="https://instagram.com/raluca.vvv?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank">Instagram</a></li>
         <li><a href="https://open.spotify.com/user/venr1xb9dx9bhssa12m47qmlv?si=dFTbf_6zSCCeseN0hENIkg" target="_blank">Spotify</a></li>
